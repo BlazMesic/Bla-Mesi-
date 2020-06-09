@@ -33,7 +33,7 @@
 
         $filename = 'champion' . date('Y_m_d_h_i_s') . '.xml';
         file_put_contents($filename, $result);
-        die('Uspješno generiran XML!');
+        die('UspjeĹˇno generiran XML!');
 
 
     }
@@ -56,7 +56,6 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="#">Riot Games</a>
 	  <span	 class="rounded border border-primary"><a class=" text-center navbar-brand"  href="https://eune.leagueoflegends.com/en-pl/">League of Legends</a></span>
-
   </nav>
   
   
@@ -65,7 +64,7 @@
             <div class="col-6 mx-auto">
                 <h1 class="mb-5  text-center">League of Legends</h1>
                 <form action="projekt.php" method="POST">
-<hr/>
+				<hr/>
                     <div class="form-group row">
 						<label for="name" class="col-sm-5 col-form-label">Name of the champion</label>
 							<div class="col-sm-6">
@@ -110,7 +109,7 @@
                     <div class="form-group">
 						<label for="difficulty">Difficulty of playing</label>
 						<input type="range" class="form-control-range" name="difficulty" min="1" max="100" step="1" id="formControlRange">
-						</div>
+					</div>
 
                     <label for="recommend">Would you recommend that champion?</label>
                     <select class="custom-select" name="recommend" id="recommend">
@@ -123,7 +122,7 @@
 
             </div>
         </div>
-        <div class="mb-5"></div>
+       
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
